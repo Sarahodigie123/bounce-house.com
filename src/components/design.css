@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didot&display=swap');
+/* HEADER */
+.header {
+   height: 9vh; 
+   margin: 0;
+   padding: 0;
+   border: 0.5px solid black;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  font-family: Didot, serif;
+  font-size: 30px;
+}
+
+.emojis {
+  font-family: Didot, serif;
+  font-size: 19px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 0;
+  margin-top: 45px;
+  right: 480px;
+  display: flex;
+}
+
+.emojis a {
+  margin-left: 35px;  
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  font-family: Didot, serif;
+  margin-top: 2px;
+  right: -290px; 
+  display: flex;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration:none
+}
+
+/* LETS BOUNCE PAGE */
+.body {
+  display: flex;
+  height: 100vh;
+  z-index: 2;
+  position: relative;
+}
+
+.bodytext {
+  font-size: 95px;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  padding-top: 180px;
+  padding-left: 200px;
+  font-style: normal;
+  -webkit-text-fill-color: rgb(235, 165, 235);
+  -webkit-text-stroke-color: hsl(300, 5%, 4%);
+  -webkit-text-stroke-width: 0.5px;
+  margin-left: -180px;
+  position:relative;
+}
+
+.p {
+  font-family: Didot, serif;
+  font-size: x-large;
+  padding-left:10px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.picture {
+  background-image: url('../image/smilyjump.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  flex: 1;
+  opacity: 0.5;
+}
+
+.buttondesign {
+  border-radius:6px;
+  width: 150px;
+  border-color: black;
+  height: 50px;
+  margin-left:180px;
+  margin-top: -190px; /* Adjust as needed */
+  background-color: hsl(0, 10%, 94%);
+}
+
+
+/* ABOUT US PAGE */
+.secondbody {
+  height: 100vh; 
+  background-color: rgb(244, 244, 248);
+}
+
+.secondtext {
+  font-size: 40px;
+  color: hsl(0, 0%, 2%);
+  font-family: Didot, serif;
+  font-style: normal;
+  margin-top: 250px;
+  margin-left: 600px;
+  position: absolute;
+}
+
+.thirdtext {
+  font-size: 20px;
+  color: hsl(0, 0%, 2%);
+  font-family: Didot, serif;
+  font-style: normal;
+  height: 70vh; 
+  line-height: 2;
+  margin-left: -400px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.buttontwo {
+  border-radius: 6px;
+  width: 150px;
+  color:rgb(6, 6, 6);
+  height: 50px;
+  border-color: black;
+  margin-top: 480px;
+  margin-left: 640px;
+  position: absolute;
+  background-color: hsl(0, 10%, 94%);
+}
+
+/* THIRD PART OF PAGE STARTS HERE */
+.thirdbody {
+  height: 100vh; 
+  background-color: rgb(255, 255, 255);
+  background-image: url('../image/Inflatable.jpeg');
+  background-repeat: no-repeat;
+  background-position: left bottom 200px;
+}
+
+.fourthtext {
+  font-size: 40px;
+  font-family: Didot, serif;
+  margin-left: 750px;
+  margin-top:190px;
+  position: absolute;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 2;
+  font-family: Didot, serif;
+  margin-top:30px;
+  position: relative;
+}
+
+.buttonthree {
+  border-radius: 6px;
+  width: 150px;
+  color:rgb(7, 7, 7);
+  height: 50px;
+  margin-left: -280px;
+  border-color: black;
+  margin-top:60px;
+  position: absolute;
+  background-color: hsl(0, 10%, 94%);
+}
+
+/* FOURTH PAGE */
+
+.fourthbody {
+  height:100vh;
+  background-color: rgb(244, 244, 248);
+}
+
+.customers{
+  text-align: center;
+  margin-left:420px;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 120px;
+  font-family: Didot, serif;
+}
+
+.customer-container {
+  display: flex;
+  position:relative;
+  margin-left: 0px;
+  justify-content: space-around;
+}
+
+.customer {
+  display: flex;
+  margin-top: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer-picture {
+  width: 250px; 
+  height: 300px; 
+  background-repeat: no-repeat;
+}
+
+.customer-text {
+  margin-top: 10px; 
+  font-family: Didot, serif;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.left {
+  background-image: url('../image//lady-modified.png');
+  background-size: contain;
+ 
+}
+
+.middle {
+  background-image: url('../image/sarahmodified.png');
+  background-size: contain;
+}
+
+.right {
+  background-image: url('../image/indianlady.png');
+  background-size: contain;
+}
+.stars {
+  color: gold; 
+  font-size: 24px; 
+  margin-top: 5px; 
+}
+
+
+/* FIFTH PAGE */
+.fifthbody {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px; 
+}
+
+.image {
+  width: 300px; 
+  height: 300px; 
+  background-size: cover;
+  margin: 0 5px; 
+}
+
+.first-row:nth-child(1) {
+  background-image: url('../image/1.png');
+}
+
+.first-row:nth-child(2) {
+  background-image: url('../image/2.png');
+}
+
+.first-row:nth-child(3) {
+  background-image: url('../image/3.png');
+}
+
+.first-row:nth-child(4) {
+  background-image: url('../image/4.png');
+}
+
+.first-row:nth-child(5) {
+  background-image: url('../image/5.png');
+}
+
+.second-row:nth-child(1) {
+  background-image: url('../image/6.png');
+}
+
+.second-row:nth-child(2) {
+  background-image: url('../image/7.png');
+}
+
+.second-row:nth-child(3) {
+  background-image: url('../image/8.png');
+}
+
+.second-row:nth-child(4) {
+  background-image: url('../image/9.png');
+}
+
+.second-row:nth-child(5) {
+  background-image: url('../image/10.png');
+}
+
+/* SIXTH PAGE */
+
+.sixthpage {
+  height:100vh;
+}
+
+.sixthpagetext {
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 110px;
+  font-family: Didot, serif;
+}
+
+.sixthpagesmalltext {
+  font-family: Didot, serif;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.sixcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top:85px;
+  justify-content: space-between;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.input-group input[type="text"],
+textarea {
+  flex: 1;
+  padding: 17px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.input-group input[type="text"] {
+  padding-right: 85px;
+}
+
+  .input-group input[type="text"],
+  textarea {
+    width: 80%;
+
+  }
+
+  input[type="submit"] {
+    background-color: hsl(0, 10%, 94%);
+    color: white; 
+    padding: 14px 70px; 
+    border-color: black;
+    border-radius: 6px; 
+    color:black;
+    cursor: pointer; 
+    font-size: 10px;
+    transition: background-color 0.3s; 
+  }
+  input[type="submit"]:hover {
+    background-color:  rgb(235, 165, 235);
+  }
+
+  .seventhpage{
+    height:50vh;
+    background-color: rgb(244, 244, 248);
+  }
+
+  .seventhpagetext{
+
+  }
+
+  .eightpage {
+    height:13vh;
+    background-color:rgb(251, 217, 251);
+  }
+
+  .eightpagetext{
+    margin-left:600px;
+    margin-top:20px;
+    position:absolute;
+    font-family: Didot, serif;
+  }
+
+  .rights {
+    margin-top:20px;
+    margin-left:-80px;
+    position:relative;
+  }
